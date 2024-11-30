@@ -10,7 +10,7 @@ In this repository, I'm building **Large Language Models** from *scratch* using 
 4. GPT 2 (OpenAI)
 5. T5 (Google)
 6. InstructGPT (OpenAI) (More RL, but okay)
-7. LLama Family (1, 2, 3.1, 3.2)
+7. LLama Family
 
 Another track is to explore types of model architectures
 1. Encoder-only vs Decoder-only

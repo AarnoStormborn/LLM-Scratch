@@ -30,7 +30,7 @@ class DecoderBlock(nn.Module):
         x = self.residual_connections[0](x, lambda x: self.self_attention_block(x, x, x, dec_mask))
         x = self.residual_connections[1](x, lambda x: self.cross_attention_block(x, encoder_output, encoder_output, enc_mask))
         x = self.residual_connections[2](x, self.feed_forward_block)
-        
+        return x
         
         
 class Decoder(nn.Module):
